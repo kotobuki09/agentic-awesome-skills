@@ -1,3 +1,14 @@
+# Instructree community skill import - 2026-08-26
+
+- Added the MIT-licensed `instructree` skill from
+  [kotobuki09/instructree](https://github.com/kotobuki09/instructree) release
+  `v0.7.0` at commit `364dddc66badac13a284b79f0dc71f2b4362f6de`.
+- Kept the audit local and read-only, with explicit approval before its pinned
+  executable fallback, conservative interpretation of conflicts, and clear
+  static-analysis limitations.
+- Kept the contribution source-only; generated registries and plugin mirrors
+  remain owned by protected canonical synchronization.
+
 # Multi-source evidence integrity repair - 2026-08-20
 
 - Ported the executable follow-up from community PR #1204 onto the protected
