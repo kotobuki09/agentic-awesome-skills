@@ -35,7 +35,7 @@ Work from the repository root. Prefer an already installed `instructree` command
 If neither is available, explain that the next command downloads executable package code and ask for approval before running the pinned release:
 
 ```bash
-npx github:kotobuki09/instructree#v0.7.0 scan .
+npx github:kotobuki09/instructree#364dddc66badac13a284b79f0dc71f2b4362f6de scan .
 ```
 
 Do not add `--yes` unless the user authorized non-interactive package downloads.
